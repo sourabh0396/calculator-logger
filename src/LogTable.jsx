@@ -20,7 +20,7 @@ const LogTable = () => {
                     <td>{log.expression}</td>
                     <td>{log.isvalid ? 'Yes' : 'No'}</td>
                     <td>{log.output}</td>
-                    <td>{new Date(log.created_on).toLocaleString()}</td>
+                    <td>{new Date(log.createdOn).toLocaleString()}</td>
                 </tr>
                 ))}
             </tbody>
