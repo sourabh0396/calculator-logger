@@ -114,8 +114,7 @@ const Calculator = () => {
                 <td>{log.expression}</td>
                 <td>{log.isValid ? 'Yes' : 'No'}</td>
                 <td>{log.output}</td>
-                {/* <td>{new Date(log.created_on).toLocaleDateString()}</td> */}
-                <td>{new Date(log.created_on).toLocaleDateString('en-US', { dateStyle: 'medium', timeStyle: 'medium' })}</td> {/* Correct formatting */}
+                <td>{new Date(log.createdOn).toLocaleString()}</td>
               </tr>
             ))}
           </tbody>
