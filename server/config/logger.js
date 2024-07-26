@@ -1,12 +1,12 @@
-// config/logger.js
+
 const winston = require('winston');
 require('winston-mongodb');
 
-// Configure Winston logger
+
 const logger = winston.createLogger({
   level: 'info',
   transports: [
-    // File transport
+    
     new winston.transports.File({
       filename: 'logs/server.log',
       format: winston.format.combine(
