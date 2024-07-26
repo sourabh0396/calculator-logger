@@ -5,7 +5,7 @@ const logger = require('../config/logger');
 
 const router = express.Router();
 
-//function to handle database operations
+//function handle database operations
 const handleDbOperation = (operation) => async (req, res, next) => {
   try {
     await operation(req, res);
