@@ -1,4 +1,3 @@
-// routes/logRoutes.js
 const express = require('express');
 const math = require('mathjs');
 const CalculatorLog = require('../models/CalculatorLog');
@@ -6,7 +5,7 @@ const logger = require('../config/logger');
 
 const router = express.Router();
 
-// Helper function to handle database operations
+//function to handle database operations
 const handleDbOperation = (operation) => async (req, res, next) => {
   try {
     await operation(req, res);
@@ -16,7 +15,7 @@ const handleDbOperation = (operation) => async (req, res, next) => {
   }
 };
 
-// POST /api/logs - Log a new calculator expression
+
 router.post('/logs', handleDbOperation(async (req, res) => {
   const { expression } = req.body;
   if (!expression) {
