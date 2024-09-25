@@ -1,0 +1,21 @@
+info: Sep-23-2024 21:11:07: 	Server started on port 5000
+info: Sep-23-2024 21:11:41: 	Server started on port 5000
+info: Sep-23-2024 21:12:04: 	Expression logged: 3+3 | Valid: true
+info: Sep-23-2024 21:12:13: 	Expression logged: 333+3 | Valid: true
+info: Sep-23-2024 21:12:20: 	Expression logged: 333+37+3 | Valid: true
+info: Sep-23-2024 21:12:24: 	Expression logged: 333+37+3*9 | Valid: true
+info: Sep-23-2024 21:12:28: 	Expression logged: 333+37+3*9+2 | Valid: true
+info: Sep-23-2024 21:12:32: 	Expression logged: 333+37+3*9+2+1 | Valid: true
+info: Sep-23-2024 21:12:42: 	Expression logged: 5+5 | Valid: true
+info: Sep-23-2024 21:12:45: 	Expression logged: 5+5+6 | Valid: true
+info: Sep-23-2024 21:12:49: 	Expression logged: 5+5+6+2 | Valid: true
+info: Sep-23-2024 21:12:52: 	Expression logged: 5+5+6+2+2 | Valid: true
+info: Sep-23-2024 21:12:56: 	Expression logged: 5+5+6+2+2+5 | Valid: true
+info: Sep-23-2024 21:13:37: 	Server started on port 5000
+info: Sep-23-2024 21:20:36: 	Received an empty expression
+info: Sep-23-2024 21:20:43: 	Expression logged: 6+3 | Valid: true
+info: Sep-23-2024 21:24:41: 	Expression logged: 3+3 | Valid: true
+info: Sep-23-2024 21:28:16: 	Expression logged: 6+4 | Valid: true
+info: Sep-23-2024 21:28:46: 	Expression logged: 6+4+55+5 | Valid: true
+info: Sep-23-2024 21:29:02: 	Expression logged: 6+4+55+5+20 | Valid: true
+info: Sep-24-2024 18:27:34: 	Expression logged: 3+3 | Valid: true
